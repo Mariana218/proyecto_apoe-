@@ -1,3 +1,4 @@
+import "../stylesheets/Header.css"
 
 export const Header = () => {
     return (
@@ -11,7 +12,9 @@ export const Header = () => {
     <a className="navbar-brand" href="#">Apoe!</a>
     <div className="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
       <div className="offcanvas-header">
-        <h5 className="offcanvas-title" id="offcanvasDarkNavbarLabel">Dark offcanvas</h5>
+        <div className="bg-white rounded-circle d-flex justify-content-center align-items-center w-25 h-25">
+          <img src="logo.png" alt="" />
+        </div>
         <button type="button" className="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
       </div>
       <div className="offcanvas-body">
@@ -29,18 +32,13 @@ export const Header = () => {
             <ul className="dropdown-menu dropdown-menu-dark">
               <li><a className="dropdown-item" href="#">Gato negro</a></li>
               <li><a className="dropdown-item" href="#">Corazón delator</a></li>
-              <li>{/* 
-                <hr> className="dropdown-divider"
-                </hr> */}
+              <li>
               </li>
               <li><a className="dropdown-item" href="#">Something else here</a></li>
             </ul>
           </li>
         </ul>
-        <form className="d-flex mt-3" role="search">
-          <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
-          <button className="btn btn-success" type="submit">Search</button>
-        </form>
+
       </div>
     </div>
   </div>
