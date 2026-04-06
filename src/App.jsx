@@ -1,4 +1,5 @@
 import { Header } from "./components/Header"
+import { Inicio } from "./pages/Inicio"
 
 
 export const App = () => {
@@ -6,6 +7,7 @@ export const App = () => {
     <>
     
     <Header/>
+    <Inicio/>
     
     </>
   )
