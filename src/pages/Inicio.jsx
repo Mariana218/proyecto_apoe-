@@ -57,9 +57,9 @@ export const Inicio = () => {
                   </p>
 
                   <div style={{ background: 'linear-gradient(135deg, #1d0b0b 0%, #0d0d0d 100%)' }} className="creadores-card mx-auto p-4 p-md-5 w-50 rounded-4">
-                    <p style={{ color: '#69bd56' }} className="text-success-custom mb-5 text-uppercase fw-light letter-spacing-2">
-                      Creadores del Proyecto
-                    </p>
+                    <p style={{ color: '#69bd56' }} className="text-success-custom mb-3 text-uppercase fw-light letter-spacing-2">
+                      Creadores del Proyecto</p>
+
 
                     <div style={{ fontFamily: "Times New Roman, Times, serif" }} className="row justify-content-center gap-4 gap-md-0">
 
@@ -83,7 +83,7 @@ export const Inicio = () => {
                       fontFamily: "Times New Roman, Times, serif",
                       color: '#9d8f7b',
                       fontWeight: 'italic light',
-                    }} className="mt-5 quote-text">
+                    }} className="mt-3 quote-text">
                       "Buscamos crear una comunidad de 'cuervos lectores' para fomentar la conexión con la lectura de nuevo, dando honor a Poe."
                     </p>
                   </div>
@@ -96,7 +96,7 @@ export const Inicio = () => {
                     fontSize: "3rem",
                     fontFamily: "Times New Roman, Times, serif",
                     color: '#e27b7b'
-                  }} className="section-title text-center mb-5 mt-5 fw-bold">¿POR QUÉ APOE!?</h1>
+                  }} className="section-title text-center mb-5 mt-5 pt-5 fw-bold">¿POR QUÉ APOE!?</h1>
 
                   <div style={{
                     fontFamily: "Times New Roman, Times, serif",
@@ -144,8 +144,16 @@ export const Inicio = () => {
                 </div>
               </section>
 
-{/* 
-              <Tarjetas icon="📚" title="Nuestra Misión" description="Promover la lectura a través de experiencias digitales innovadoras." /> */}
+              <section className="bg-black d-flex p-0 w-75" style={{ backgroundColor: 'rgba(0, 0, 0, 0.7)', 
+              fontFamily: "Times New Roman, Times, serif",
+              position: 'relative',
+              left: '13%',
+              }}>
+              <Tarjetas icon="📚" title="Ilustraciones Originales" description="Promover la lectura a través de experiencias digitales innovadoras." /> 
+              <Tarjetas icon="📚" title="Nuestra Misión" description="Promover la lectura a través de experiencias digitales innovadoras." /> 
+              <Tarjetas icon="📚" title="Nuestra Misión" description="Promover la lectura a través de experiencias digitales innovadoras." /> 
+              <Tarjetas icon="📚" title="Nuestra Misión" description="Promover la lectura a través de experiencias digitales innovadoras." /> 
+              </section>
 
 
             </div>
@@ -154,7 +162,6 @@ export const Inicio = () => {
 
       </div>
 
-      {/* Despliegue v2 */}
 
     </>
   )
