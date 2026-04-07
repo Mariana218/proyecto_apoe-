@@ -154,6 +154,7 @@ export const Inicio = () => {
 
       </div>
 
+      {/* Despliegue v2 */}
 
     </>
   )
