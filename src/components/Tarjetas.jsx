@@ -1,4 +1,3 @@
-import React from 'react'
 
 export const Tarjetas = (icon, title, description) => {
   return (

@@ -1,4 +1,4 @@
-import { Tarjetas } from '../components/tarjetas'
+import { Tarjetas } from '../components/Tarjetas'
 import '../stylesheets/Inicio.css'
 
 export const Inicio = () => {
