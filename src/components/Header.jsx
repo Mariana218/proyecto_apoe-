@@ -10,7 +10,7 @@ export const Header = () => {
             <span className="navbar-toggler-icon"></span>
           </button>
           <a className="navbar-brand" href="#">Apoe!</a>
-          <div className="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+          <div className="offcanvas offcanvas-start text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
             <div className="offcanvas-header">
               <div className="bg-white rounded-circle d-flex justify-content-center align-items-center w-25 h-25">
                 <img src="logo.png" alt="" />

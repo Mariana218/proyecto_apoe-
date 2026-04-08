@@ -1,3 +1,5 @@
+import { Footer } from '../components/Footer'
+import { Infocuentos } from '../components/Infocuentos'
 import { Tarjetas } from '../components/Tarjetas'
 import '../stylesheets/Inicio.css'
 
@@ -96,7 +98,7 @@ export const Inicio = () => {
                     fontSize: "3rem",
                     fontFamily: "Times New Roman, Times, serif",
                     color: '#e27b7b'
-                  }} className="section-title text-center mb-5 mt-5 pt-5 fw-bold">¿POR QUÉ APOE!?</h1>
+                  }} className="section-title text-center mb-2 mt-5 pt-5 fw-bold">¿POR QUÉ APOE!?</h1>
 
                   <div style={{
                     fontFamily: "Times New Roman, Times, serif",
@@ -144,17 +146,19 @@ export const Inicio = () => {
                 </div>
               </section>
 
-              <section className="bg-black d-flex p-0 w-75" style={{ backgroundColor: 'rgba(0, 0, 0, 0.7)', 
+              <section className="bg-black d-flex p-0 w-75 gap-4 mt-4" style={{ backgroundColor: 'rgba(0, 0, 0, 0.7)', 
               fontFamily: "Times New Roman, Times, serif",
               position: 'relative',
               left: '13%',
               }}>
-              <Tarjetas icon="📚" title="Ilustraciones Originales" description="Promover la lectura a través de experiencias digitales innovadoras." /> 
-              <Tarjetas icon="📚" title="Nuestra Misión" description="Promover la lectura a través de experiencias digitales innovadoras." /> 
-              <Tarjetas icon="📚" title="Nuestra Misión" description="Promover la lectura a través de experiencias digitales innovadoras." /> 
-              <Tarjetas icon="📚" title="Nuestra Misión" description="Promover la lectura a través de experiencias digitales innovadoras." /> 
+              <Tarjetas icon="👁️" title="Ilustraciones Originales" description="Arte gótico único para cada cuento" /> 
+              <Tarjetas icon="🔊" title="Audio Narración" description="Escucha mientras disfrutas" /> 
+              <Tarjetas icon="📚" title="Interactivo" description="Elementos que te sumergen" /> 
+              <Tarjetas icon="👥" title="Comunidad" description="Cuervos lectores conectados" /> 
               </section>
 
+      <Infocuentos/>
+      <Footer/>
 
             </div>
           </div>
