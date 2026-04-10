@@ -1,11 +1,11 @@
+import React from 'react'
 
-export const personajes = () => {
+export const Psonajes = () => {
   return (
-
     <>
     
     <div className="row g-4">
-          <div className="col-12 col-md-4">
+          <div className="col-12 col-md-4 ms-3">
             <div className="card h-100 border-secondary-subtle p-4 text-white shadow-sm" style={{ backgroundColor: '#121212' }}>
               <div className="rounded-circle border border-danger d-flex align-items-center justify-content-center mb-3" 
                    style={{ width: '45px', height: '45px', color: '#ff4444', backgroundColor: 'rgba(255, 68, 68, 0.05)' }}>
@@ -22,9 +22,8 @@ export const personajes = () => {
               </div>
             </div>
           </div>
-            </div>    
-    
-    </>
+            </div>   
 
-)
+    </>
+  )
 }

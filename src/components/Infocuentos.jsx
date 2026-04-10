@@ -1,9 +1,10 @@
+import { Psonajes } from "./Psonajes"
 
 export const Infocuentos = () => {
   return (
     <>
      
-     <div className="container mt-5 pt-5 bg-black min-vh-100">
+     <div className="container mt-n3 pt-5 bg-black min-vh-100">
       <div 
         className="position-relative overflow-hidden rounded-3 shadow-lg mx-3 mt-3"
         style={{
@@ -49,8 +50,11 @@ export const Infocuentos = () => {
           </h5>
           <div className="ms-3" style={{ width: '40px', height: '1px', backgroundColor: '#4b5320' }}></div>
         </div>
-        
+    
           </div>
+
+          <Psonajes/>
+
         </div>
 
     </>

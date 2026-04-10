@@ -2,6 +2,9 @@ import { Footer } from '../components/Footer'
 import { Infocuentos } from '../components/Infocuentos'
 import { Tarjetas } from '../components/Tarjetas'
 import '../stylesheets/Inicio.css'
+import { Corazon } from './Corazon'
+import { Gatonegro } from './Gatonegro'
+import { Nosotros } from './Nosotros'
 
 export const Inicio = () => {
   return (
@@ -157,8 +160,18 @@ export const Inicio = () => {
               <Tarjetas icon="👥" title="Comunidad" description="Cuervos lectores conectados" /> 
               </section>
 
-      <Infocuentos/>
-      <Footer/>
+              <section>
+                <div className='d-flex justify-content-center'>
+                <img className='w-75 mt-4' src="/cuervo.png" alt="" /><img/>
+                </div>
+                <Gatonegro/>
+                <div className='d-flex justify-content-center'>
+                <img className='w-75 mt-4' src="/cuervo.png" alt="" /><img/>
+                </div>
+                <Corazon/>
+                <Nosotros/>
+                <Footer/>
+              </section>
 
             </div>
           </div>
@@ -166,6 +179,8 @@ export const Inicio = () => {
 
       </div>
 
+
+      
 
     </>
   )
