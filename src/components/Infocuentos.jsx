@@ -1,5 +1,6 @@
 import { Psonajes } from "./Psonajes"
 
+
 export const Infocuentos = () => {
   return (
     <>
@@ -44,11 +45,11 @@ export const Infocuentos = () => {
 
       <div className="container py-5 px-4">
         <div className="d-flex align-items-center mb-5">
-          <div style={{ width: '40px', height: '1px', backgroundColor: '#4b5320' }}></div>
-          <h5 className="ms-3 mb-0 text-success fw-bold" style={{ letterSpacing: '3px', fontSize: '0.9rem' }}>
+          <div style={{ width: '40px', height: '1px', backgroundColor: '#69bd56' }}></div>
+          <h5 className="ms-3 mb-0 text-success fw-bold subtitulo" style={{ letterSpacing: '3px', fontSize: '0.9rem', color: '#69bd56' }}>
             PERSONAJES
           </h5>
-          <div className="ms-3" style={{ width: '40px', height: '1px', backgroundColor: '#4b5320' }}></div>
+          <div className="ms-3" style={{ width: '40px', height: '1px', backgroundColor: '#69bd56' }}></div>
         </div>
     
           </div>

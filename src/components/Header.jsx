@@ -5,7 +5,7 @@ export const Header = () => {
     <>
 
       <nav className="navbar navbar-dark bg-black fixed-top">
-        <div className="container-fluid d-flex justify-content-start gap-5">
+        <div className="container d-flex justify-content-start gap-5">
           <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>
@@ -13,9 +13,9 @@ export const Header = () => {
                   fontFamily: "Times New Roman, Times, serif",
                 }} className="navbar-brand" href="#">Apoe!</a>
           <div style={{ background: 'linear-gradient(135deg, #1d0b0b 0%, #0d0d0d 100%)', borderRadius: '15px'
-           }} className="offcanvas offcanvas-start text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+           }} className="offcanvas offcanvas-start text-bg-dark text-center" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
             <div style={{ background: 'transparent' }} className="offcanvas-header">
-              <div className="bg-white rounded-circle d-flex justify-content-center align-items-center mb-3" style={{ width: '50px', height: '50px' }}>
+              <div className="bg-white rounded-circle mb-3" style={{ width: '50px', height: '50px', position: 'relative', left: '41%' }}>
                 <img className="" src="/logo.png" alt="" />
               </div>
               <button type="button" className="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>

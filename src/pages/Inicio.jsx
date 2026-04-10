@@ -1,5 +1,5 @@
 import { Footer } from '../components/Footer'
-import { Infocuentos } from '../components/Infocuentos'
+
 import { Tarjetas } from '../components/Tarjetas'
 import '../stylesheets/Inicio.css'
 import { Corazon } from './Corazon'
