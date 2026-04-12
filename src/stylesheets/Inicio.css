@@ -1,6 +1,25 @@
 .fondo{
     height: 100vh;
 }
-.section1{
-    height: 100vh;
+section{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.tarjeta{
+    background: linear-gradient(135deg, #1d0b0b 0%, #0d0d0d 100%);
+    position: relative;
+    top: 50px;
+}
+.avatar-red{
+    background-color: #c84b4b41;
+    width: 55px;
+    height: 55px;
+}
+.avatar-green{
+    background-color: #69bd5641;
+    width: 55px;
+    height: 55px;
+}
+.problema{
+    background: linear-gradient(135deg, #1d0b0b 0%, #0d0d0d 100%);
+    border-radius: 15px;
 }

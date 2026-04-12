@@ -1,10 +1,11 @@
 import { Footer } from '../components/Footer'
-
+import '../stylesheets/tipografias.css'
 import { Tarjetas } from '../components/Tarjetas'
 import '../stylesheets/Inicio.css'
 import { Corazon } from './Corazon'
 import { Gatonegro } from './Gatonegro'
 import { Nosotros } from './Nosotros'
+import { Problema } from '../components/Problema'
 
 export const Inicio = () => {
   return (
@@ -12,57 +13,32 @@ export const Inicio = () => {
       <div className="container-fluid p-0 m-0">
         <div className="row m-0 p-0">
           <div className="col-12 m-0 p-0">
-            <div className="fondo" style={{
-              backgroundImage: "radial-gradient(circle, rgba(0, 0, 0, 0.22), rgb(0, 0, 0)80%), url('./image.jpg')",
-              backgroundSize: 'cover',
-              backgroundPosition: 'center',
-            }}>
-
-              <section className="m-5 text-center text-white p-5 h-100" style={{ backgroundColor: 'rgba(0, 0, 0, 0.5)' }}>
-                <h1 style={{
-                  fontSize: "9rem",
-                  fontFamily: "Times New Roman, Times, serif",
-                  color: '#e27b7b'
-                }} className='fw-bold m-5 pt-5'>APOE!</h1>
-                <h2 style={{
-                  fontFamily: "Times New Roman, Times, serif",
-                }} className=' text-uppercase mb-4'>Reconecta con el Misterio y la Lectura</h2>
-                <p style={{
-                  fontFamily: "Times New Roman, Times, serif",
-                  color: '#9d8f7b',
-                }} className='w-50 fs-5 mx-auto'>Libro digital interactivo que ilustra y narra las obras de Edgar Allan Poe de una manera accesible, visual y emocionalmente atractiva.</p>
-                <button className="btn btn-lg px-3 py-2 shadow fs-5 mt-3" style={{
-                  backgroundColor: '#c84b4b',
-                  color: 'white',
-                  borderRadius: '5px',
-                  fontWeight: 'bold',
-                  border: 'none',
-                  fontWeight: 'normal'
-                }}>
+            <div className="fondo">
+              <section className="m-5 text-center text-white p-5 h-100">
+                <div className='m-5 p-5'>
+                <h1 className='fw-bold mt-5 pt-5'>APOE!</h1>
+                <h2 className=' text-uppercase mb-4'>Reconecta con el Misterio y la Lectura</h2>
+                <p className='parrafo w-50 fs-5 mx-auto'>Libro digital interactivo que ilustra y narra las obras de Edgar Allan Poe de una manera accesible, visual y emocionalmente atractiva.</p>
+                <button className="boton btn btn-lg px-3 py-2 shadow mt-3">
                   INICIAR LECTURA ↓
                 </button>
+                </div>
               </section>
 
-              <section className="bg-black section1 m-0 p-6" style={{ backgroundColor: 'rgba(0, 0, 0, 0.7)' }}>
+              <section className="bg-black section1 m-0">
                 <div className="container text-center text-white">
-                  <p style={{ color: '#69bd56' }} className="text-success-custom mb-1 text-uppercase fw-light letter-spacing-2">
+                  <p className="subtitulo text-success-custom mb-1 text-uppercase fw-light">
                     Proyecto Apoe!
                   </p>
-                  <h2 style={{
-                    fontFamily: "Times New Roman, Times, serif",
-                  }} className="display-4 title-font fs-1 mb-4">OBJETIVO CENTRAL</h2>
-
-                  <p style={{
-                    fontFamily: "Times New Roman, Times, serif",
-                    color: '#9d8f7b',
-                  }} className="lead description-text mx-auto mb-5 w-50">
+                  <h2 className="display-4 title-font fs-1 mb-4 fw-bold">OBJETIVO CENTRAL</h2>
+                  <p className="parrafo lead description-text mx-auto mb-5 w-50">
                     Reconectar con el placer de la lectura mediante una experiencia digital ilustrada,
                     flexible y adaptada a los estilos de vida actuales, desarrollando habilidades
                     cognitivas y emocionales a través de las obras de Poe.
                   </p>
 
-                  <div style={{ background: 'linear-gradient(135deg, #1d0b0b 0%, #0d0d0d 100%)' }} className="creadores-card mx-auto p-4 p-md-5 w-50 rounded-4">
-                    <p style={{ color: '#69bd56' }} className="text-success-custom mb-3 text-uppercase fw-light letter-spacing-2">
+                  <div className="tarjeta creadores-card mx-auto p-4 p-md-5 w-50 rounded-4 ">
+                    <p className="subtitulo text-success-custom mb-3 text-uppercase fw-light letter-spacing-2">
                       Creadores del Proyecto</p>
 
 
@@ -72,7 +48,7 @@ export const Inicio = () => {
                         <div style={{
                           color: '#c84b4b',
                           fontSize: '2rem',
-                        }} className="avatar avatar-red mb-3 rounded-circle">NA</div>
+                        }} className="avatar avatar-red mb-3 rounded-circle d-flex align-items-center justify-content-center">NA</div>
                         <h3 className="h5 name-text">NICOLÁS ATEHORTUA</h3>
                       </div>
 
@@ -80,76 +56,38 @@ export const Inicio = () => {
                         <div style={{
                           color: '#69bd56',
                           fontSize: '2rem',
-                        }} className="avatar avatar-green mb-3 rounded-circle">MM</div>
+                        }} className="avatar avatar-green mb-3 rounded-circle d-flex align-items-center justify-content-center">MM</div>
                         <h3 className="h5 name-text">MARIANA MARTÍNEZ</h3>
                       </div>
                     </div>
-                    <p style={{
-                      fontFamily: "Times New Roman, Times, serif",
-                      color: '#9d8f7b',
-                      fontWeight: 'italic light',
-                    }} className="mt-3 quote-text">
+                    <p className="parrafo mt-3 quote-text">
                       "Buscamos crear una comunidad de 'cuervos lectores' para fomentar la conexión con la lectura de nuevo, dando honor a Poe."
                     </p>
                   </div>
                 </div>
               </section>
 
-              <section>
+              <section className="section2 mt-5 pt-5">
                 <div className="container">
-                  <h1 style={{
-                    fontSize: "3rem",
-                    fontFamily: "Times New Roman, Times, serif",
-                    color: '#e27b7b'
-                  }} className="section-title text-center mb-2 mt-5 pt-5 fw-bold">¿POR QUÉ APOE!?</h1>
+                  <h1 className="titulo text-center mb-2 mt-5 pt-5 fw-bold fs-1">¿POR QUÉ APOE!?</h1>
 
-                  <div style={{
-                    fontFamily: "Times New Roman, Times, serif",
-                  }} className="row justify-content-center gap-5 p-4 p-md-5" >
+                  <div className="row justify-content-center gap-5 p-4 p-md-5" >
 
-                    <div style={{
-                      background: 'linear-gradient(135deg, #1d0b0b 0%, #0d0d0d 100%)',
-                      borderRadius: '15px',
-                    }} className="col-lg-5">
-                      <div className="apoe-card card-problema p-4 p-md-5 h-100">
-                        <div className="d-flex align-items-center mb-4">
-                          <div className="icon-circle circle-red me-3">
-                            <span>⚠️</span>
-                          </div>
-                          <h4 className="card-header-title m-0 text-white">EL PROBLEMA</h4>
-                        </div>
-                        <ul style={{ color: '#9d8f7b' }} className="list-unstyled custom-list lh-lg">
-                          <li>El 75.6% de jóvenes entre 18-30 años no mantiene hábitos de lectura constantes.</li>
-                          <li>Falta de tiempo, cansancio mental y dificultad para concentrarse.</li>
-                          <li>Más del 75% tiene dificultades para encontrar libros que conecten con sus intereses.</li>
-                          <li>La experiencia lectora tradicional no responde a audiencias visuales e interactivas.</li>
-                        </ul>
-                      </div>
-                    </div>
+                    <Problema icon="⚠️" titulo="EL PROBLEMA" descripcion="El 75.6% de jóvenes entre 18-30 años no mantiene hábitos de lectura constantes.
+                    Falta de tiempo, cansancio mental y dificultad para concentrarse.
+                    Más del 75% tiene dificultades para encontrar libros que conecten con sus intereses.
+                    La experiencia lectora tradicional no responde a audiencias visuales e interactivas." />
 
-
-                    <div style={{ background: 'linear-gradient(135deg, #1d0b0b 0%, #0d0d0d 100%)', borderRadius: '15px' }} className="col-lg-5">
-                      <div className="apoe-card card-solucion p-4 p-md-5 h-100">
-                        <div className="d-flex align-items-center mb-4">
-                          <div className="icon-circle circle-green me-3">
-                            <span>💡</span>
-                          </div>
-                          <h3 className="card-header-title m-0 text-white">LA SOLUCIÓN</h3>
-                        </div>
-                        <ul style={{ color: '#9d8f7b' }} className="list-unstyled custom-list lh-lg">
-                          <li>Lectura digital ilustrada: cuentos clásicos transformados en experiencias visuales.</li>
-                          <li>Narración de audio integrada para una experiencia sensorial completa.</li>
-                          <li>Interacciones y elementos multimedia que hacen amena la lectura.</li>
-                          <li>Flexible y adaptada a los estilos de vida actuales — lee cuando quieras.</li>
-                        </ul>
-                      </div>
-                    </div>
+                    <Problema icon="💡" titulo="LA SOLUCIÓN" descripcion="Lectura digital ilustrada: cuentos clásicos transformados en experiencias visuales.
+                    Narración de audio integrada para una experiencia sensorial completa.
+                    Interacciones y elementos multimedia que hacen amena la lectura.
+                    Flexible y adaptada a los estilos de vida actuales — lee cuando quieras." />
 
                   </div>
                 </div>
               </section>
 
-              <section className="bg-black d-flex p-0 w-75 gap-4 mt-4" style={{ backgroundColor: 'rgba(0, 0, 0, 0.7)', 
+              <section className="bg-black d-flex p-0 w-75 gap-4 mt-2 mb-5" style={{ backgroundColor: 'rgba(0, 0, 0, 0.7)', 
               fontFamily: "Times New Roman, Times, serif",
               position: 'relative',
               left: '13%',
@@ -160,7 +98,7 @@ export const Inicio = () => {
               <Tarjetas icon="👥" title="Comunidad" description="Cuervos lectores conectados" /> 
               </section>
 
-              <section>
+              <section className="mt-5 pt-5">
                 <div className='d-flex justify-content-center'>
                 <img className='w-75 mt-4' src="/cuervo.png" alt="" /><img/>
                 </div>

@@ -1,0 +1,70 @@
+.parrafo{
+    font-family: Times New Roman, Times, serif;
+    color: #9d8f7b;
+}
+.logo{
+    position: relative;
+    left: 37%;
+    top: 10%;
+    width: 25%;
+    height: auto;
+}
+.fondo{
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0.22), rgb(0, 0, 0)80%), url('./image.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.boton{
+    background-color: #c84b4b;
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+    font-weight: bold;
+    border: none;
+    letter-spacing: 2px;
+    
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 9rem;
+    background: linear-gradient(to right, #ede7e5, #e27b7b);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    width: 50%;
+    display: unset;
+}  
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    color: #ede7dee6;
+}
+.subtitulo{
+    color: #69bd56;
+    letter-spacing: 2px;
+}
+.titulo{
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: 25%;
+}
+.card{
+    min-height: 450px;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), #421b1b), url('/negro.jpg');
+    background-size: cover;
+    background-position: center;
+    background-color: #000;
+}
+.titulo2{
+    font-family: 'Times New Roman', Times, serif;
+}
+.lineas{
+    width: 40px;
+    height: 1px;
+    background-color: #69bd56;
+}
+.cardtitle{
+    font-family: 'Times New Roman', Times, serif;
+}

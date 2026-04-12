@@ -1,4 +1,5 @@
 import { Psonajes } from "./Psonajes"
+import '../stylesheets/tipografias.css'
 
 
 export const Infocuentos = () => {
@@ -7,26 +8,19 @@ export const Infocuentos = () => {
      
      <div className="container mt-n3 pt-5 bg-black min-vh-100">
       <div 
-        className="position-relative overflow-hidden rounded-3 shadow-lg mx-3 mt-3"
-        style={{
-          minHeight: '450px',
-          backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0.5), #1a0b0b), url('/negro.jpg')`,
-          backgroundSize: 'cover',
-          backgroundPosition: 'center',
-          backgroundColor: '#000'
-        }}
+        className="card position-relative overflow-hidden rounded-3 shadow-lg mx-3 mt-3"
       >
         <div className="position-absolute bottom-0 start-0 p-5 w-100">
           <div className="container">
-            <p className="text-success fw-bold mb-1 small" style={{ letterSpacing: '2px' }}>
+            <p className="subtitulo fw-bold mb-1 small">
               CUENTO DE EDGAR ALLAN POE
             </p>
 
-            <h1 className="display-3 fw-bold text-white mb-2" style={{ fontFamily: 'serif' }}>
+            <h1 className="titulo2 display-3 fw-bold text-white mb-2">
               EL GATO NEGRO
             </h1>
 
-            <p className="lead text-light opacity-75 mb-4 w-75">
+            <p className="parrafo lead  mb-4 w-75">
               El descenso a la locura, la culpa y la perversidad de un hombre.
             </p>
 
@@ -43,18 +37,24 @@ export const Infocuentos = () => {
         </div>
       </div>
 
-      <div className="container py-5 px-4">
+      <div className="containerpersonajes py-5 px-4">
         <div className="d-flex align-items-center mb-5">
-          <div style={{ width: '40px', height: '1px', backgroundColor: '#69bd56' }}></div>
-          <h5 className="ms-3 mb-0 text-success fw-bold subtitulo" style={{ letterSpacing: '3px', fontSize: '0.9rem', color: '#69bd56' }}>
+          <div className="lineas"></div>
+          <h5 className="subtitulo ms-3 mb-0 fs-6 fw-bold">
             PERSONAJES
           </h5>
-          <div className="ms-3" style={{ width: '40px', height: '1px', backgroundColor: '#69bd56' }}></div>
+          <div className="ms-3 lineas"></div>
         </div>
-    
-          </div>
 
-          <Psonajes/>
+        <div className="row g-4 d-flex flex-wrap justify-content-center">
+          <Psonajes className="col-12 col-md-4" letra="F" titulo="FRANK" habilidad="Sensibilidad inicial y amor por los animales" defecto="Alcoholismo, perversidad e irracionalidad" />
+          <Psonajes className="col-12 col-md-4" letra="F" titulo="FRANK" habilidad="Sensibilidad inicial y amor por los animales" defecto="Alcoholismo, perversidad e irracionalidad" />
+          <Psonajes className="col-12 col-md-4"  letra="F" titulo="FRANK" habilidad="Sensibilidad inicial y amor por los animales" defecto="Alcoholismo, perversidad e irracionalidad" />
+        </div>
+  {/* g-4 d-flex flex-wrap justify-content-center */}
+
+      </div >
+          
 
         </div>
 
