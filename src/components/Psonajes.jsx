@@ -5,9 +5,9 @@ export const Psonajes = ({letra, titulo, habilidad, defecto}) => {
     <>
     
     <div className="row g-4">
-          <div className="col-12 col-md-4 ms-3">
-            <div className="tarjeta2 h-100 p-4 text-white shadow-sm">
-              <div className="avatar-red rounded-circle d-flex align-items-center justify-content-center mb-3">
+          <div className="col ms-3">
+            <div className="tarjeta2 p-4 text-white shadow-sm">
+              <div className="avatar-red rounded-circle d-flex align-items-center justify-content-center mb-3 fw-bold fs-4">
                 {letra}
               </div>
               <h5 className="cardtitle mb-4 fw-bold">{titulo}</h5>

@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import { Psonajes } from '../components/Psonajes'
 import '../stylesheets/tipografias.css'
 
@@ -11,6 +12,9 @@ export const Gatonegro = () => {
         >
           <div className="position-absolute bottom-0 start-0 p-5 w-100">
             <div className="container">
+              <Link to='/' className="parrafo btn btn-link w- text-decoration-none small mb-5 pb-5">
+              <i className="bi bi-arrow-left me-2"></i> ← VOLVER
+              </Link>
               <p className="subtitulo fw-bold mb-1 small">
                 CUENTO DE EDGAR ALLAN POE
               </p>
@@ -24,9 +28,9 @@ export const Gatonegro = () => {
               </p>
 
               <div className="d-flex gap-3">
-                <button className="btn btn-danger px-4 py-2 fw-bold d-flex align-items-center shadow">
+                <Link to="/Cuento" className="btn btn-danger px-4 py-2 fw-bold d-flex align-items-center shadow">
                   <i className="bi bi-book-half me-2"></i> INICIAR LECTURA
-                </button>
+                </Link>
 
                 <button className="btn btn-outline-light px-4 py-2 fw-bold opacity-75 border-secondary">
                   <i className="bi bi-heart me-2"></i> FAVORITO
@@ -46,9 +50,15 @@ export const Gatonegro = () => {
           </div>
 
           <div className="row g-4 d-flex flex-wrap justify-content-center">
-            <Psonajes className="col-12 col-md-4" letra="F" titulo="FRANK" habilidad="Sensibilidad inicial y amor por los animales" defecto="Alcoholismo, perversidad e irracionalidad" />
-            <Psonajes className="col-12 col-md-4" letra="G" titulo="GATO NEGRO (PLUTÓN)" habilidad="Gran afecto y lealtad" defecto="Detonante de la locura del narrador" />
-            <Psonajes className="col-12 col-md-4" letra="K" titulo="KATHERINE" habilidad="Dócil y amorosa" defecto="Víctima de la perversidad de Frank" />
+            <div className="col">
+            <Psonajes letra="F" titulo="FRANK" habilidad="Sensibilidad inicial y amor por los animales" defecto="Alcoholismo, perversidad e irracionalidad" />
+            </div>
+            <div className="col">
+            <Psonajes letra="G" titulo="GATO NEGRO (PLUTÓN)" habilidad="Gran afecto y lealtad" defecto="Detonante de la locura del narrador" />
+            </div>
+            <div className="col">
+            <Psonajes letra="K" titulo="KATHERINE" habilidad="Dócil y amorosa" defecto="Víctima de la perversidad de Frank" />
+            </div>
           </div>
 
 

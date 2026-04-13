@@ -6,6 +6,7 @@ import { Corazon } from './Corazon'
 import { Gatonegro } from './Gatonegro'
 import { Nosotros } from './Nosotros'
 import { Problema } from '../components/Problema'
+import { Link } from 'react-router-dom'
 
 export const Inicio = () => {
   return (
@@ -14,14 +15,14 @@ export const Inicio = () => {
         <div className="row m-0 p-0">
           <div className="col-12 m-0 p-0">
             <div className="fondo">
-              <section className="m-5 text-center text-white p-5 h-100">
+              <section className="banner-fondo m-5 text-center text-white p-5 h-100">
                 <div className='m-5 p-5'>
                   <h1 className='fw-bold mt-5 pt-5'>APOE!</h1>
                   <h2 className=' text-uppercase mb-4'>Reconecta con el Misterio y la Lectura</h2>
                   <p className='parrafo w-50 fs-5 mx-auto'>Libro digital interactivo que ilustra y narra las obras de Edgar Allan Poe de una manera accesible, visual y emocionalmente atractiva.</p>
-                  <button className="boton btn btn-lg px-3 py-2 shadow mt-3">
+                  <Link to="/Cuentos" className="boton btn btn-lg px-3 py-2 shadow mt-3">
                     INICIAR LECTURA ↓
-                  </button>
+                  </Link>
                 </div>
               </section>
 
@@ -109,7 +110,7 @@ export const Inicio = () => {
                 </div>
                 <Corazon />
                 <Nosotros />
-                <Footer />
+                
               </section>
 
             </div>

@@ -30,7 +30,7 @@ export const Nosotros = () => {
           <div className="row g-4 justify-content-center">
 
             <div className="col-md-5">
-              <div className="tarjeta2 rounded-3 p-4 shadow-lg" >
+              <div className="tarjeta3 rounded-3 p-4 shadow-lg" >
                 <div className="card-body">
                   <h2 >
                     MISIÓN
@@ -45,7 +45,7 @@ export const Nosotros = () => {
 
 
             <div className="col-md-5">
-              <div className="tarjeta2 rounded-3 p-4 shadow-lg" >
+              <div className="tarjeta3 rounded-3 p-4 shadow-lg" >
                 <div className="card-body">
                   <h2>
                     VISIÓN

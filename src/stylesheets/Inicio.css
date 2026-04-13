@@ -1,6 +1,15 @@
-.fondo{
+/* .fondo{
     height: 100vh;
+} */
+
+
+.banner-fondo {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0.8), rgb(0, 0, 0)80%), url('/image.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh!important;
 }
+
 section{
     background-color: rgba(0, 0, 0, 0.5);
 }

@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 import { Psonajes } from "../components/Psonajes"
 import '../stylesheets/tipografias.css'
 
@@ -12,6 +13,9 @@ export const Corazon = () => {
         >
           <div className="position-absolute bottom-0 start-0 p-5 w-100">
             <div className="container">
+              <Link to='/' className="parrafo btn btn-link w- text-decoration-none small mb-5 pb-5">
+              <i className="bi bi-arrow-left me-2"></i> ← VOLVER
+              </Link>
               <p className="subtitulo fw-bold mb-1 small">
                 CUENTO DE EDGAR ALLAN POE
               </p>
@@ -25,9 +29,9 @@ export const Corazon = () => {
               </p>
 
               <div className="d-flex gap-3">
-                <button className="btn btn-danger px-4 py-2 fw-bold d-flex align-items-center shadow">
+                <Link to='/Cuentoc' className="btn btn-danger px-4 py-2 fw-bold d-flex align-items-center shadow">
                   <i className="bi bi-book-half me-2"></i> INICIAR LECTURA
-                </button>
+                </Link>
 
                 <button className="btn btn-outline-light px-4 py-2 fw-bold opacity-75 border-secondary">
                   <i className="bi bi-heart me-2"></i> FAVORITO
@@ -47,8 +51,12 @@ export const Corazon = () => {
           </div>
 
           <div className="row g-4 d-flex flex-wrap justify-content-center">
+            <div className="col">
             <Psonajes className="col-12 col-md-4" letra="T" titulo="TAKESHI (EL ASESINO)" habilidad="Paciencia y meticulosidad extrema" defecto="La locura disfrazada de razón" />
+            </div>
+            <div className="col">
             <Psonajes className="col-12 col-md-4" letra="S" titulo="SATOSHI (EL ANCIANO)" habilidad="Maestro sabio y bondadoso" defecto="Su ojo de buitre atormenta al narrador" />
+            </div>
           </div>
 
 

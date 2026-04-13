@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import '../stylesheets/tipografias.css'
 
 export const Lectura = ({superior, titulo, texto, letra, image}) => {
@@ -5,22 +6,22 @@ export const Lectura = ({superior, titulo, texto, letra, image}) => {
     <div className="min-vh-100 bg-black text-white p-0">
 
       <nav className="d-flex justify-content-between align-items-center px-4 py-3 border-bottom border-secondary">
-        <button className="parrafo btn btn-link w- text-decoration-none small">
-          <i className="bi bi-arrow-left me-2"></i> ← VOLVER
-        </button>
         <div className="titulo2 text-uppercase small fw-bold">
           <i className="bi bi-book me-2 text-danger"></i> {superior}
         </div>
         <div className="parrafo small opacity-50">1 / 5</div>
       </nav>
 
+        <Link to='/' className="parrafo btn btn-link w- text-decoration-none small mt-5 ms-5">
+          <i className="bi bi-arrow-left me-2"></i> ← VOLVER
+        </Link>
       <div
         className="background position-relative w-100"
         style={{
-        height: '60vh',
-        backgroundImage: 'linear-gradient(to bottom, rgba(77, 41, 41, 0.26), #000000),)',
-        backgroundSize: 'cover',
-        backgroundPosition: 'center',}}
+          height: '60vh',
+          backgroundImage: 'linear-gradient(to bottom, rgba(31, 16, 16, 0.78), #000000),)',
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',}}
       >
         <div className="container h-100 d-flex flex-column justify-content-center">
           <p className=" subtitulo small mb-0">EDGAR ALLAN POE</p>
