@@ -10,7 +10,7 @@
     height: auto;
 }
 .fondo{
-    background-image: radial-gradient(circle, rgba(0, 0, 0, 0.22), rgb(0, 0, 0)80%), url('./image.jpg');
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0.22), rgb(0, 0, 0)80%), url('/image.jpg');
     background-size: cover;
     background-position: center;
 }
