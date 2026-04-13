@@ -16,12 +16,12 @@ export const Inicio = () => {
             <div className="fondo">
               <section className="m-5 text-center text-white p-5 h-100">
                 <div className='m-5 p-5'>
-                <h1 className='fw-bold mt-5 pt-5'>APOE!</h1>
-                <h2 className=' text-uppercase mb-4'>Reconecta con el Misterio y la Lectura</h2>
-                <p className='parrafo w-50 fs-5 mx-auto'>Libro digital interactivo que ilustra y narra las obras de Edgar Allan Poe de una manera accesible, visual y emocionalmente atractiva.</p>
-                <button className="boton btn btn-lg px-3 py-2 shadow mt-3">
-                  INICIAR LECTURA ↓
-                </button>
+                  <h1 className='fw-bold mt-5 pt-5'>APOE!</h1>
+                  <h2 className=' text-uppercase mb-4'>Reconecta con el Misterio y la Lectura</h2>
+                  <p className='parrafo w-50 fs-5 mx-auto'>Libro digital interactivo que ilustra y narra las obras de Edgar Allan Poe de una manera accesible, visual y emocionalmente atractiva.</p>
+                  <button className="boton btn btn-lg px-3 py-2 shadow mt-3">
+                    INICIAR LECTURA ↓
+                  </button>
                 </div>
               </section>
 
@@ -87,28 +87,29 @@ export const Inicio = () => {
                 </div>
               </section>
 
-              <section className="bg-black d-flex p-0 w-75 gap-4 mt-2 mb-5" style={{ backgroundColor: 'rgba(0, 0, 0, 0.7)', 
-              fontFamily: "Times New Roman, Times, serif",
-              position: 'relative',
-              left: '13%',
+              <section className="bg-black d-flex p-0 w-75 gap-4 mt-2 mb-5" style={{
+                backgroundColor: 'rgba(0, 0, 0, 0.7)',
+                fontFamily: "Times New Roman, Times, serif",
+                position: 'relative',
+                left: '13%',
               }}>
-              <Tarjetas icon="👁️" title="Ilustraciones Originales" description="Arte gótico único para cada cuento" /> 
-              <Tarjetas icon="🔊" title="Audio Narración" description="Escucha mientras disfrutas" /> 
-              <Tarjetas icon="📚" title="Interactivo" description="Elementos que te sumergen" /> 
-              <Tarjetas icon="👥" title="Comunidad" description="Cuervos lectores conectados" /> 
+                <Tarjetas icon="👁️" title="Ilustraciones Originales" description="Arte gótico único para cada cuento" />
+                <Tarjetas icon="🔊" title="Audio Narración" description="Escucha mientras disfrutas" />
+                <Tarjetas icon="📚" title="Interactivo" description="Elementos que te sumergen" />
+                <Tarjetas icon="👥" title="Comunidad" description="Cuervos lectores conectados" />
               </section>
 
               <section className="mt-5 pt-5">
                 <div className='d-flex justify-content-center'>
-                <img className='w-75 mt-4' src="/cuervo.png" alt="" /><img/>
+                  <img className='w-75 mt-4' src="/cuervo.png" alt="" /><img />
                 </div>
-                <Gatonegro/>
+                <Gatonegro />
                 <div className='d-flex justify-content-center'>
-                <img className='w-75 mt-4' src="/cuervo.png" alt="" /><img/>
+                  <img className='w-75 mt-4' src="/cuervo.png" alt="" /><img />
                 </div>
-                <Corazon/>
-                <Nosotros/>
-                <Footer/>
+                <Corazon />
+                <Nosotros />
+                <Footer />
               </section>
 
             </div>
@@ -118,7 +119,7 @@ export const Inicio = () => {
       </div>
 
 
-      
+
 
     </>
   )

@@ -6,7 +6,7 @@ export const Psonajes = ({letra, titulo, habilidad, defecto}) => {
     
     <div className="row g-4">
           <div className="col-12 col-md-4 ms-3">
-            <div className="card h-100 p-4 text-white shadow-sm">
+            <div className="tarjeta2 h-100 p-4 text-white shadow-sm">
               <div className="avatar-red rounded-circle d-flex align-items-center justify-content-center mb-3">
                 {letra}
               </div>

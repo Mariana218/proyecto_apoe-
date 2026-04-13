@@ -1,17 +1,17 @@
+import '../stylesheets/tipografias.css';
 
 export const Footer = () => {
   return (
     <>
-    
-    <nav class="navbar bg-black mt-5 border border-danger">
-  <div class="container-fluid">
-    <span class="navbar-text text-center w-100" style={{ fontSize: '0.9rem',
-    color: '#4b5320',
-     }} >
-      APOE! · SENA · Producción Multimedia · 2025    </span>
-  </div>
-</nav>
-    
+
+      <nav class="navbar mt-5" style={{ backgroundColor: '#421b1b52' }}>
+        <div class="container-fluid justify-content-center">
+          <h2 className="fs-6">
+            APOE! · SENA · Producción Multimedia · 2025
+          </h2>
+        </div>
+      </nav>
+
     </>
   )
 }

@@ -10,12 +10,13 @@ export const Header = () => {
             <span className="navbar-toggler-icon"></span>
           </button>
           <a className="parrafo navbar-brand" href="#">Apoe!</a>
-          <div style={{ background: 'linear-gradient(135deg, #1d0b0b 0%, #0d0d0d 100%)', borderRadius: '15px'
-           }} className="offcanvas offcanvas-start text-bg-dark text-center" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+          <div style={{
+            background: 'linear-gradient(135deg, #1d0b0b 0%, #0d0d0d 100%)', borderRadius: '15px'
+          }} className="offcanvas offcanvas-start text-bg-dark text-center" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
             <div style={{ background: 'transparent' }} className="offcanvas-header">
 
               <div className='logo bg-white rounded-circle p-3 mt-4'>
-              <img  src="/logo.png" alt="" />
+                <img src="/logo.png" alt="" />
               </div>
 
               <button type="button" className="btn-close btn-close-white mb-5 me-1" data-bs-dismiss="offcanvas" aria-label="Close"></button>
@@ -31,8 +32,8 @@ export const Header = () => {
                   </a>
                   <ul className="dropdown-menu dropdown-menu-dark bg-black">
                     <li><a className="dropdown-item" href="#">🐈‍⬛ Gato Negro</a></li>
-                    <li><a className="dropdown-item" 
-                    href="#">🫀 Corazón Delator</a></li>
+                    <li><a className="dropdown-item"
+                      href="#">🫀 Corazón Delator</a></li>
                   </ul>
                 </li>
                 <li className="nav-item">
@@ -41,7 +42,7 @@ export const Header = () => {
               </ul>
 
             </div>
-              <p className="parrafo d-flex justify-content-center justify-content-end">© 2026 Apoe! - Todos los derechos reservados.</p>
+            <p className="parrafo d-flex justify-content-center justify-content-end">© 2026 Apoe! - Todos los derechos reservados.</p>
           </div>
         </div>
       </nav>
