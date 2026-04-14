@@ -13,13 +13,13 @@ export const Inicio = () => {
     <>
       <div className="container-fluid p-0 m-0">
         <div className="row m-0 p-0">
-          <div className="col-12 m-0 p-0">
+          <div className="col-12 m-0 p-0 ">
             <div className="fondo">
-              <section className="banner-fondo m-5 text-center text-white p-5 h-100">
+              <section className="banner-fondo  m-5 text-center text-white p-5 h-100">
                 <div className='m-5 p-5'>
-                  <h1 className='fw-bold mt-5 pt-5'>APOE!</h1>
+                  <h1 className='fw-bold mt-5 pt-5 '>APOE!</h1>
                   <h2 className=' text-uppercase mb-4'>Reconecta con el Misterio y la Lectura</h2>
-                  <p className='parrafo w-50 fs-5 mx-auto'>Libro digital interactivo que ilustra y narra las obras de Edgar Allan Poe de una manera accesible, visual y emocionalmente atractiva.</p>
+                  <p className='parrafo w-100 w-md-75 w-lg-50 fs-5 mx-auto px-3'>Libro digital interactivo que ilustra y narra las obras de Edgar Allan Poe de una manera accesible, visual y emocionalmente atractiva.</p>
                   <Link to="/Cuentos" className="boton btn btn-lg px-3 py-2 shadow mt-3">
                     INICIAR LECTURA ↓
                   </Link>
@@ -45,7 +45,7 @@ export const Inicio = () => {
 
                     <div style={{ fontFamily: "Times New Roman, Times, serif" }} className="row justify-content-center gap-4 gap-md-0">
 
-                      <div className="col-md-5 d-flex flex-column align-items-center">
+                      <div className="col col-md-5 col-sm-12 d-flex flex-column align-items-center">
                         <div style={{
                           color: '#c84b4b',
                           fontSize: '2rem',
