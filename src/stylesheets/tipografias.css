@@ -4,18 +4,11 @@
 }
 
 .logo {
-    position: relative;
-    left: 37%;
-    top: 10%;
-    width: 25%;
+    width: 100px;
     height: auto;
 }
 
-/* .fondo {
-    background-image: radial-gradient(circle, rgba(0, 0, 0, 0.22), rgb(0, 0, 0)80%), url('/image.jpg');
-    background-size: cover;
-    background-position: center;
-} */
+
 
 .boton {
     background-color: #c84b4b;
@@ -35,7 +28,7 @@ h1 {
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
-    width: 50%;
+
     display: unset;
 }
 
@@ -54,8 +47,7 @@ h2 {
     font-size: 3rem;
     display: flex;
     justify-content: center;
-    position: relative;
-    left: 25%;
+
 }
 
 .card {
@@ -88,7 +80,7 @@ h2 {
 }
 .tarjeta2 {
     background: linear-gradient(135deg, #1d0b0b 0%, #0d0d0d 100%);
-    height: 300px;
+
     border-radius: 15px;
 }
 .texto{
@@ -97,6 +89,6 @@ h2 {
 }
 .tarjeta3{
     background: linear-gradient(135deg, #1d0b0b 0%, #0d0d0d 100%);
-    height: 150px;
+
     border-radius: 15px;
 }

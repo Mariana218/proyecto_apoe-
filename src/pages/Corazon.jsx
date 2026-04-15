@@ -28,12 +28,12 @@ export const Corazon = () => {
                 El ojo de buitre, la obsesión y el latido incesante de la culpa.
               </p>
 
-              <div className="d-flex gap-3">
-                <Link to='/Cuentoc' className="btn btn-danger px-4 py-2 fw-bold d-flex align-items-center shadow">
+              <div className="row d-flex flex-wrap gap-3">
+                <Link to='/Cuentoc' className="col-12 col-md-4 justify-content-center btn btn-danger px-4 py-2 fw-bold d-flex align-items-center shadow">
                   <i className="bi bi-book-half me-2"></i> INICIAR LECTURA
                 </Link>
 
-                <button className="btn btn-outline-light px-4 py-2 fw-bold opacity-75 border-secondary">
+                <button className="col-12 col-md-4 justify-content-center btn btn-outline-light px-4 py-2 fw-bold opacity-75 border-secondary">
                   <i className="bi bi-heart me-2"></i> FAVORITO
                 </button>
               </div>
@@ -43,18 +43,18 @@ export const Corazon = () => {
 
         <div className="containerpersonajes py-5 px-4">
           <div className="d-flex align-items-center mb-5">
-            <div className="lineas"></div>
-            <h5 className="subtitulo ms-3 mb-0 fs-6 fw-bold">
+            <div className="lineas text-center w-100"></div>
+            <h5 className="text-center w-100 subtitulo ms-3 mb-0 fs-6 fw-bold">
               PERSONAJES
             </h5>
-            <div className="ms-3 lineas"></div>
+            <div className="ms-3 lineas text-center w-100"></div>
           </div>
 
           <div className="row g-4 d-flex flex-wrap justify-content-center">
-            <div className="col">
+            <div className="col-12 col-md-4">
             <Psonajes className="col-12 col-md-4" letra="T" titulo="TAKESHI (EL ASESINO)" habilidad="Paciencia y meticulosidad extrema" defecto="La locura disfrazada de razón" />
             </div>
-            <div className="col">
+            <div className="col-12 col-md-4">
             <Psonajes className="col-12 col-md-4" letra="S" titulo="SATOSHI (EL ANCIANO)" habilidad="Maestro sabio y bondadoso" defecto="Su ojo de buitre atormenta al narrador" />
             </div>
           </div>

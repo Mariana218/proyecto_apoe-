@@ -27,12 +27,12 @@ export const Gatonegro = () => {
                 El descenso a la locura, la culpa y la perversidad de un hombre.
               </p>
 
-              <div className="d-flex gap-3">
-                <Link to="/Cuento" className="btn btn-danger px-4 py-2 fw-bold d-flex align-items-center shadow">
+              <div className="row d-flex flex-wrap gap-3">
+                <Link to="/Cuento" className="col-12 col-md-4 justify-content-center btn btn-danger px-4 py-2 fw-bold d-flex align-items-center shadow">
                   <i className="bi bi-book-half me-2"></i> INICIAR LECTURA
                 </Link>
 
-                <button className="btn btn-outline-light px-4 py-2 fw-bold opacity-75 border-secondary">
+                <button className="col-12 col-md-4 justify-content-center btn btn-outline-light px-4 py-2 fw-bold opacity-75 border-secondary">
                   <i className="bi bi-heart me-2"></i> FAVORITO
                 </button>
               </div>
@@ -42,21 +42,21 @@ export const Gatonegro = () => {
 
         <div className="containerpersonajes py-5 px-4">
           <div className="d-flex align-items-center mb-5">
-            <div className="lineas"></div>
-            <h5 className="subtitulo ms-3 mb-0 fs-6 fw-bold">
+            <div className="lineas text-center w-100"></div>
+            <h5 className="text-center w-100 subtitulo ms-3 mb-0 fs-6 fw-bold">
               PERSONAJES
             </h5>
-            <div className="ms-3 lineas"></div>
+            <div className="ms-3 lineas text-center w-100"></div>
           </div>
 
           <div className="row g-4 d-flex flex-wrap justify-content-center">
-            <div className="col">
+            <div className="col-12 col-md-4 ">
             <Psonajes letra="F" titulo="FRANK" habilidad="Sensibilidad inicial y amor por los animales" defecto="Alcoholismo, perversidad e irracionalidad" />
             </div>
-            <div className="col">
+            <div className="col-12 col-md-4 ">
             <Psonajes letra="G" titulo="GATO NEGRO (PLUTÓN)" habilidad="Gran afecto y lealtad" defecto="Detonante de la locura del narrador" />
             </div>
-            <div className="col">
+            <div className="col-12 col-md-4 ">
             <Psonajes letra="K" titulo="KATHERINE" habilidad="Dócil y amorosa" defecto="Víctima de la perversidad de Frank" />
             </div>
           </div>

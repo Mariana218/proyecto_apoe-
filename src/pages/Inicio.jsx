@@ -1,4 +1,4 @@
-import { Footer } from '../components/Footer'
+
 import '../stylesheets/tipografias.css'
 import { Tarjetas } from '../components/Tarjetas'
 import '../stylesheets/Inicio.css'
@@ -11,20 +11,20 @@ import { Link } from 'react-router-dom'
 export const Inicio = () => {
   return (
     <>
-      <div className="container-fluid p-0 m-0">
+      <div className="container-fluid p-0 m-0 overflow-hidden">
         <div className="row m-0 p-0">
           <div className="col-12 m-0 p-0 ">
             <div className="fondo">
-              <section className="banner-fondo  m-5 text-center text-white p-5 h-100">
-                <div className='m-5 p-5'>
-                  <h1 className='fw-bold mt-5 pt-5 '>APOE!</h1>
-                  <h2 className=' text-uppercase mb-4'>Reconecta con el Misterio y la Lectura</h2>
+              <div className="banner-fondo m-2 m-md-5 text-center text-white p-3 p-md-5 h-100">
+                <div className='my-4 my-md-5 py-4 py-md-5 d-flex align-items-center flex-column justify-content-center'>
+                  <h1 className='fw-bold mt-5 pt-5 display-3' style={{fontSize:'7rem',}}>APOE!</h1>
+                  <h2 className=' text-uppercase fs--md-2 mb-4'>Reconecta con el Misterio y la Lectura</h2>
                   <p className='parrafo w-100 w-md-75 w-lg-50 fs-5 mx-auto px-3'>Libro digital interactivo que ilustra y narra las obras de Edgar Allan Poe de una manera accesible, visual y emocionalmente atractiva.</p>
                   <Link to="/Cuentos" className="boton btn btn-lg px-3 py-2 shadow mt-3">
                     INICIAR LECTURA ↓
                   </Link>
                 </div>
-              </section>
+              </div>
 
               <section className="bg-black section1 m-0">
                 <div className="container text-center text-white">
@@ -38,14 +38,14 @@ export const Inicio = () => {
                     cognitivas y emocionales a través de las obras de Poe.
                   </p>
 
-                  <div className="tarjeta creadores-card mx-auto p-4 p-md-5 w-50 rounded-4 ">
+                  <div className="col-7 col-md-8 col-sm-12 tarjeta creadores-card mx-auto p-4 p-md-5 rounded-4">
                     <p className="subtitulo text-success-custom mb-3 text-uppercase fw-light letter-spacing-2">
                       Creadores del Proyecto</p>
 
 
-                    <div style={{ fontFamily: "Times New Roman, Times, serif" }} className="row justify-content-center gap-4 gap-md-0">
+                    <div style={{ fontFamily: "Times New Roman, Times, serif" }} className="row justify-content-center gap-4 gap-md-4">
 
-                      <div className="col col-md-5 col-sm-12 d-flex flex-column align-items-center">
+                      <div className="col-12 col-md-5 d-flex flex-column align-items-center">
                         <div style={{
                           color: '#c84b4b',
                           fontSize: '2rem',
@@ -53,7 +53,7 @@ export const Inicio = () => {
                         <h3 className="h5 name-text">NICOLÁS ATEHORTUA</h3>
                       </div>
 
-                      <div className="col-md-5 d-flex flex-column align-items-center">
+                      <div className="col-12 col-md-5 d-flex flex-column align-items-center">
                         <div style={{
                           color: '#69bd56',
                           fontSize: '2rem',
@@ -70,7 +70,7 @@ export const Inicio = () => {
 
               <section className="section2 mt-5 pt-5">
                 <div className="container">
-                  <h1 className="titulo text-center mb-2 mt-5 pt-5 fw-bold fs-1">¿POR QUÉ APOE!?</h1>
+                  <h1 className="titulo text-center mb-2 mt-0 pt-5 fw-bold fs-1">¿POR QUÉ APOE!?</h1>
 
                   <div className="row justify-content-center gap-5 p-4 p-md-5" >
 
@@ -88,19 +88,16 @@ export const Inicio = () => {
                 </div>
               </section>
 
-              <section className="bg-black d-flex p-0 w-75 gap-4 mt-2 mb-5" style={{
-                backgroundColor: 'rgba(0, 0, 0, 0.7)',
-                fontFamily: "Times New Roman, Times, serif",
-                position: 'relative',
-                left: '13%',
-              }}>
+              <div className="container py-5 px-4">
+              <div className="row d-flex flex-wrap g-3 g-lg-5 justify-content-center m-0">
                 <Tarjetas icon="👁️" title="Ilustraciones Originales" description="Arte gótico único para cada cuento" />
                 <Tarjetas icon="🔊" title="Audio Narración" description="Escucha mientras disfrutas" />
                 <Tarjetas icon="📚" title="Interactivo" description="Elementos que te sumergen" />
                 <Tarjetas icon="👥" title="Comunidad" description="Cuervos lectores conectados" />
-              </section>
+              </div>
+              </div>           
 
-              <section className="mt-5 pt-5">
+              <section className="row mt-5 pt-5">
                 <div className='d-flex justify-content-center'>
                   <img className='w-75 mt-4' src="/cuervo.png" alt="" /><img />
                 </div>

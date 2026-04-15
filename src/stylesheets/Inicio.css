@@ -15,8 +15,7 @@ section{
 }
 .tarjeta{
     background: linear-gradient(135deg, #1d0b0b 0%, #0d0d0d 100%);
-    position: relative;
-    top: 50px;
+    
 }
 .avatar-red{
     background-color: #c84b4b41;
