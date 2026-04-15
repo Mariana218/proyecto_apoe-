@@ -20,7 +20,7 @@ export const Lectura = ({ superior, titulo, texto, letra, image }) => {
         </nav>
 
         <div
-          className="background position-relative w-100 d-flex align-items-center"
+          className="background d-flex align-items-center"
           style={{
             height: '60vh',
             backgroundImage: 'linear-gradient(to bottom, rgba(31, 16, 16, 0.78), #000000),)',
@@ -35,11 +35,11 @@ export const Lectura = ({ superior, titulo, texto, letra, image }) => {
         </div>
 
 
-        <div className="container py-4 py-md-5 mb-5 pb-5 mt-5">
+        <div className="py-4 py-md-5 mb-5 pb-5 mt-5 pt-5">
           <div className="row justify-content-center">
-            <div className="col-12 col-md-10 col-lg-8 px-4">
+            <div className="col-12 col-md-10 col-lg-8 px-4 m-5 ">
               <p className="texto lead lh-lg text-secondary-custom fs-6" style={{ textAlign: 'justify' }}>
-                <span className="display-4 text-danger float-start me-3 mt-1" style={{ fontFamily: 'serif', lineHeight: '1', fontSize: '4rem' }}>{letra}</span>{texto}
+                <span className="display-4 text-danger float-start me-3 mt-1" style={{ fontFamily: 'serif', lineHeight: '1', fontSize: '4rem', }}>{letra}</span>{texto}
               </p>
             </div>
           </div>

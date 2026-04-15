@@ -54,7 +54,7 @@ export const Gatonegro = () => {
             <Psonajes letra="F" titulo="FRANK" habilidad="Sensibilidad inicial y amor por los animales" defecto="Alcoholismo, perversidad e irracionalidad" />
             </div>
             <div className="col-12 col-md-4 ">
-            <Psonajes letra="G" titulo="GATO NEGRO (PLUTÓN)" habilidad="Gran afecto y lealtad" defecto="Detonante de la locura del narrador" />
+            <Psonajes letra="P" titulo="GATO NEGRO (PLUTÓN)" habilidad="Gran afecto y lealtad" defecto="Detonante de la locura del narrador" />
             </div>
             <div className="col-12 col-md-4 ">
             <Psonajes letra="K" titulo="KATHERINE" habilidad="Dócil y amorosa" defecto="Víctima de la perversidad de Frank" />

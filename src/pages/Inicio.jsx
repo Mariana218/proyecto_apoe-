@@ -17,7 +17,7 @@ export const Inicio = () => {
             <div className="fondo">
               <div className="banner-fondo m-2 m-md-5 text-center text-white p-3 p-md-5 h-100">
                 <div className='my-4 my-md-5 py-4 py-md-5 d-flex align-items-center flex-column justify-content-center'>
-                  <h1 className='fw-bold mt-5 pt-5 display-3' style={{fontSize:'7rem',}}>APOE!</h1>
+                  <h1 className='fw-bold mt-5 pt-5 display-3' style={{fontSize:'6rem',}}>APOE!</h1>
                   <h2 className=' text-uppercase fs--md-2 mb-4'>Reconecta con el Misterio y la Lectura</h2>
                   <p className='parrafo w-100 w-md-75 w-lg-50 fs-5 mx-auto px-3'>Libro digital interactivo que ilustra y narra las obras de Edgar Allan Poe de una manera accesible, visual y emocionalmente atractiva.</p>
                   <Link to="/Cuentos" className="boton btn btn-lg px-3 py-2 shadow mt-3">
